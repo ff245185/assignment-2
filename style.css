@@ -120,6 +120,8 @@ header {
 .father1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: -100px;
+    overflow-x: hidden;
 }
 
 .button1 {
@@ -176,6 +178,13 @@ hr {
     text-align: center;
     color: aliceblue;
     margin-bottom: 20px;
+}
+
+#viwe {
+    text-align: center;
+    padding: 0px 0px;
+    background-color: #9c3b3b;
+    display: none;
 }
 
 /* tablet responsive fast  */
@@ -258,4 +267,17 @@ hr {
         background-color: antiquewhite;
     }
 
+    #viwe {
+
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+
+
 }
+
+/* viiwe all page designs */
