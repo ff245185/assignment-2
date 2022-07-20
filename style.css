@@ -13,6 +13,25 @@ body {
 /* start our design */
 
 
+header {
+    background-color: red;
+    width: 1300px;
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+
+.fast-header {
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+    margin: 25px;
+
+    text-align: center;
+    padding: 0px 15px;
+    align-items: center;
+}
 
 .top-fram {
     display: flex;
@@ -27,7 +46,7 @@ body {
 }
 
 .photo-br img {
-    width: 331px;
+    width: 531px;
     height: 613px;
 }
 
@@ -65,12 +84,13 @@ body {
     width: 310px;
     margin-left: 130px;
     border-radius: 4px;
+
 }
 
 .son {
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 
 }
 
@@ -97,6 +117,10 @@ body {
     padding: 10px 46px;
 }
 
+.father1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 .button1 {
     padding: 27px;
@@ -122,4 +146,116 @@ body {
 .icon {
     margin-right: 90px;
     padding-top: -8px;
+}
+
+footer {
+    background-color: #161616;
+}
+
+.fast-footer {
+    color: aliceblue;
+    text-align: center;
+    font-size: 33px;
+}
+
+.sec-footer {
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+hr {
+    border: 1px solid goldenrod;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.media {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+/* tablet responsive fast  */
+@media only screen and (min-width:768px) and (max-width:892px) {
+    .top-fram {
+        background-color: brown;
+        width: 580px;
+        height: 298px;
+        display: flex;
+        margin-left: 10px;
+        margin: right 10px;
+    }
+
+    .photo-br img {
+        width: 240px;
+        height: 270px;
+    }
+
+    .text1 {
+        color: aliceblue;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .pra1 {
+        font-size: 8px;
+    }
+
+    .fast-header {
+        text-decoration: none;
+        font-size: 24px;
+        color: aliceblue;
+        margin: 17px;
+
+        text-align: center;
+        padding: 0px 10px;
+        align-items: center;
+    }
+
+    header {
+        background-color: red;
+        width: 570px;
+        height: 50px;
+        margin-left: 20px;
+        border-radius: 4px;
+    }
+
+    .father {
+        background-color: #9c3b3b;
+        height: 278px;
+        width: 310px;
+        margin-left: 10px;
+        border-radius: 6px;
+
+        grid-template-columns: (1fr, 1fr, 1fr);
+    }
+
+    .son {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        display: grid;
+
+    }
+
+    .father1 {
+        margin-left: -10;
+        display: grid;
+        margin-left: -100px;
+        grid-template-columns: repeat(1, 1fr);
+        overflow-y: hidden;
+    }
+
+    .son img {
+        width: 250px;
+        height: 130px;
+    }
+
+    body {
+        background-color: antiquewhite;
+    }
+
 }
