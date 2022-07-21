@@ -150,6 +150,20 @@ header {
     padding-top: -8px;
 }
 
+.foot1 {
+    border: 1px solid black;
+
+    border-radius: 4px;
+    background-color: rgb(224, 22, 22);
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px 14px;
+    visibility: hidden;
+
+
+}
+
 footer {
     background-color: #161616;
 }
@@ -198,83 +212,94 @@ hr {
         margin: right 10px;
     }
 
-    .photo-br img {
-        width: 240px;
-        height: 270px;
-    }
 
-    .text1 {
-        color: aliceblue;
-        font-size: 22px;
-        font-weight: 700;
-    }
+}
 
-    .pra1 {
-        font-size: 8px;
-    }
+.photo-br img {
+    width: 240px;
+    height: 270px;
+}
 
-    .fast-header {
-        text-decoration: none;
-        font-size: 24px;
-        color: aliceblue;
-        margin: 17px;
+.foot1 {
+    visibility: visible;
+}
 
-        text-align: center;
-        padding: 0px 10px;
-        align-items: center;
-    }
+.text1 {
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 700;
+}
 
-    header {
-        background-color: red;
-        width: 570px;
-        height: 50px;
-        margin-left: 20px;
-        border-radius: 4px;
-    }
+.pra1 {
+    font-size: 8px;
+}
 
-    .father {
-        background-color: #9c3b3b;
-        height: 278px;
-        width: 310px;
-        margin-left: 10px;
-        border-radius: 6px;
+.fast-header {
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+    margin: 17px;
 
-        grid-template-columns: (1fr, 1fr, 1fr);
-    }
+    text-align: center;
+    padding: 0px 10px;
+    align-items: center;
+}
 
-    .son {
-        color: rgb(0, 0, 0);
-        text-align: center;
-        padding: 10px;
-        display: grid;
+header {
+    background-color: red;
+    width: 570px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
 
-    }
+.father {
+    background-color: #9c3b3b;
+    height: 278px;
+    width: 310px;
+    margin-left: 10px;
+    border-radius: 6px;
 
-    .father1 {
-        margin-left: -10;
-        display: grid;
-        margin-left: -100px;
-        grid-template-columns: repeat(1, 1fr);
-        overflow-y: hidden;
-    }
+    grid-template-columns: (1fr, 1fr, 1fr);
+}
 
-    .son img {
-        width: 250px;
-        height: 130px;
-    }
+.son {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    display: grid;
 
-    body {
-        background-color: antiquewhite;
-    }
+}
 
-    #viwe {
+.father1 {
+    margin-left: -10;
+    display: grid;
+    margin-left: -100px;
+    grid-template-columns: repeat(1, 1fr);
+    overflow-y: hidden;
+}
 
-        display: inline-block;
-        padding: 10px;
-        text-decoration: none;
-        font-size: 16px;
-        color: aliceblue;
-    }
+.son img {
+    width: 250px;
+    height: 130px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#viwe {
+
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.foot1 {
+    display: inline-block;
+}
 
 
 
