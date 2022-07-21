@@ -213,97 +213,96 @@ hr {
     }
 
 
+
+
+    .photo-br img {
+        width: 240px;
+        height: 270px;
+    }
+
+    .foot1 {
+        visibility: visible;
+    }
+
+    .text1 {
+        color: aliceblue;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .pra1 {
+        font-size: 8px;
+    }
+
+    .fast-header {
+        text-decoration: none;
+        font-size: 24px;
+        color: aliceblue;
+        margin: 17px;
+
+        text-align: center;
+        padding: 0px 10px;
+        align-items: center;
+    }
+
+    header {
+        background-color: red;
+        width: 570px;
+        height: 50px;
+        margin-left: 20px;
+        border-radius: 4px;
+    }
+
+    .father {
+        background-color: #9c3b3b;
+        height: 278px;
+        width: 310px;
+        margin-left: 10px;
+        border-radius: 6px;
+
+        grid-template-columns: (1fr, 1fr, 1fr);
+    }
+
+    .son {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        display: grid;
+
+    }
+
+    .father1 {
+        margin-left: -10;
+        display: grid;
+        margin-left: -100px;
+        grid-template-columns: repeat(1, 1fr);
+        overflow-y: hidden;
+    }
+
+    .son img {
+        width: 250px;
+        height: 130px;
+    }
+
+    body {
+        background-color: antiquewhite;
+    }
+
+    #viwe {
+
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+    .foot1 {
+        display: inline-block;
+    }
 }
 
-.photo-br img {
-    width: 240px;
-    height: 270px;
-}
 
-.foot1 {
-    visibility: visible;
-}
-
-.text1 {
-    color: aliceblue;
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.pra1 {
-    font-size: 8px;
-}
-
-.fast-header {
-    text-decoration: none;
-    font-size: 24px;
-    color: aliceblue;
-    margin: 17px;
-
-    text-align: center;
-    padding: 0px 10px;
-    align-items: center;
-}
-
-header {
-    background-color: red;
-    width: 570px;
-    height: 50px;
-    margin-left: 20px;
-    border-radius: 4px;
-}
-
-.father {
-    background-color: #9c3b3b;
-    height: 278px;
-    width: 310px;
-    margin-left: 10px;
-    border-radius: 6px;
-
-    grid-template-columns: (1fr, 1fr, 1fr);
-}
-
-.son {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 10px;
-    display: grid;
-
-}
-
-.father1 {
-    margin-left: -10;
-    display: grid;
-    margin-left: -100px;
-    grid-template-columns: repeat(1, 1fr);
-    overflow-y: hidden;
-}
-
-.son img {
-    width: 250px;
-    height: 130px;
-}
-
-body {
-    background-color: antiquewhite;
-}
-
-#viwe {
-
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 16px;
-    color: aliceblue;
-}
-
-.foot1 {
-    display: inline-block;
-}
-
-
-
-}
 
 /* viiwe all page designs */
 @media all and (max-width:778px) {
